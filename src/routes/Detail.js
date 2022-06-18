@@ -28,7 +28,7 @@ function Details() {
     return (
         <div>
             {loading ? (
-                <div>"Loading..." </div>
+                <div>"Loading......" </div>
             ) : (<div className="movie_details">
                 <h1>{movie.title}</h1>
                 <img src={movie.large_cover_image} />
